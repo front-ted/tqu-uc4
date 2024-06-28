@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+/* painel clicavel 1 */
+.bt-desempenho {
+    background-image: url("../../1_sistema/img/painel01_bt01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-caracteristicas {
+    background-image: url("../../1_sistema/img/painel01_bt02.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-confiabilidade {
+    background-image: url("../../1_sistema/img/painel01_bt03.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-conformidade {
+    background-image: url("../../1_sistema/img/painel01_bt04.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-durabilidade {
+    background-image: url("../../1_sistema/img/painel01_bt05.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-atendimento {
+    background-image: url("../../1_sistema/img/painel01_bt06.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-estetica {
+    background-image: url("../../1_sistema/img/painel01_bt07.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 272px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-desempenho:hover {
+    transform: scale(1.1);
+}
+
+.bt-caracteristicas:hover {
+    transform: scale(1.1);
+}
+
+.bt-confiabilidade:hover {
+    transform: scale(1.1);
+}
+
+.bt-conformidade:hover {
+    transform: scale(1.1);
+}
+
+.bt-durabilidade:hover {
+    transform: scale(1.1);
+}
+
+.bt-atendimento:hover {
+    transform: scale(1.1);
+}
+
+.bt-estetica:hover {
+    transform: scale(1.1);
+}
+
+/* fim painel clicavel 1 */
+/* painel clicavel 2 */
+
+.painel2 {
+    background-image: url("../../1_sistema/img/painel02_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+}
+
+.bt-quadro1 {
+    background-image: url("../../1_sistema/img/painel02_bt01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 251px;
+    height: 271px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro2 {
+    background-image: url("../../1_sistema/img/painel02_bt02.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 257px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro3 {
+    background-image: url("../../1_sistema/img/painel02_bt03.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 296px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro4 {
+    background-image: url("../../1_sistema/img/painel02_bt04.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 221px;
+    height: 247px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro5 {
+    background-image: url("../../1_sistema/img/painel02_bt05.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 316px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro6 {
+    background-image: url("../../1_sistema/img/painel02_bt06.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 213px;
+    height: 239px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro7 {
+    background-image: url("../../1_sistema/img/painel02_bt07.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 251px;
+    height: 263px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-quadro1:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bt-quadro2:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bt-quadro3:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bt-quadro4:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bt-quadro5:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bt-quadro6:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bt-quadro7:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+/* fim painel clicavel 2 */
+
+/* linha do tempo */
+li {
+    margin-bottom: 0.8em;
+    list-style-image: none;
+}
+
+#booklet>header {
+    margin-top: 80px;
+    padding-right: 25vw;
+    padding-top: 0px;
+    margin-bottom: -80px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.linhatempo {
+    list-style: none;
+    padding: 20px 0;
+    position: relative;
+}
+
+.linhatempo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 10px;
+    background-color: #064a85;
+    margin-left: -1px;
+}
+
+.linhatempo-item {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+.linhatempo-item:before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.linhatempo-item .linhatempo-conteudo {
+    position: relative;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 19px;
+    margin-left: 205px;
+}
+
+.linhatempo-item:nth-child(even) .linhatempo-conteudo {
+    float: right;
+}
+
+.linhatempo-item .linhatempo-conteudo .btn {
+    width: 100%;
+    border: none;
+    padding: 0;
+    background-color: white;
+    color: #000;
+    border-radius: 100px;
+    border: 2px solid;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    outline: none !important;
+    width: 200px;
+    height: 100px;
+}
+
+.linhatempo-item:nth-child(odd) .linhatempo-conteudo .btn {
+    border-color:
+        #84acd4;
+    background-color:
+        #ffffff;
+}
+
+.linhatempo-item:nth-child(even) .linhatempo-conteudo .btn {
+    border-color: #e4948c;
+    background-color: #ffffff;
+}
+
+.linhatempo-item .linhatempo-conteudo .btn:hover {
+    transform: scale(1.1);
+}
+
+.linhatempo-item .linhatempo-conteudo .btn:focus {
+    box-shadow: none !important;
+}
+
+.descricao::-webkit-scrollbar {
+    width: 10px;
+}
+
+.descricao::-webkit-scrollbar-track {
+    background-color: #064a85;
+}
+
+.descricao::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.descricao {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #064a85;
+    display: none;
+    position: absolute;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 999;
+    width: 350px;
+    height: 220px;
+    overflow-y: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: auto;
+    right: calc(100% + 10px);
+    transition: right 0.3s ease;
+    border: 1px solid;
+}
+
+.linhatempo-item:nth-child(odd) .descricao {
+    border-color:
+        #84acd4;
+    background-color:
+        #84acd4;
+}
+
+.linhatempo-item:nth-child(even) .descricao {
+    border-color: #e4948c;
+    background-color: #e4948c;
+}
+
+.descricao.active {
+    display: block;
+    right: auto;
+    left: calc(100% + 10px);
+}
+
+.linhatempo-item:nth-child(even) .descricao.active {
+    left: auto;
+    right: calc(100% + -8px);
+}
+
+.descrimob {
+    background-color: #064a85;
+    color: #000;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+    border-radius: 1em;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.linhatempo-item:last-child .linhatempo-conteudo .btn-descricao10 img {
+    width: unset;
+    height: unset;
+    margin: auto;
+    display: block;
+}
+
+.linhatempo-item:last-child .linhatempo-conteudo .btn-descricao10 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 64px;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    display: block;
+}
+
+.linhatempo-item:last-child .linhatempo-conteudo .btn:hover {
+    transform: scale(1.1) translateX(-50%);
+}
+
+
+.linhatempo-item .descricao.active {
+    margin-left: -216px;
+}
+
+.titulolt {
+    color: #064a85;
+}
+
+/* fim linha do tempo */
+
+@media (max-width: 768px) {
+    .painel2 {
+        background-image: none;
+        background-size: none;
+        background-repeat: none;
+        padding-top: none;
+    }
+
+    .linhatempo-item .linhatempo-conteudo {
+        margin-left: 112px;
+    }
+
+    .linhatempo-item .descricao.active {
+        margin-left: -124px;
+    }
+}

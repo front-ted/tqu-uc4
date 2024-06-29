@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/*painel1*/
+
 .bt-iso1 {
     background-image: url("../../2_serie_iso/img/modal_bt01.png");
     background-size: cover;
@@ -49,4 +51,335 @@
 .bt-iso3:hover {
     background-image: url("../../2_serie_iso/img/modal_bt03_hover.png");
     transform: scale(1.1);
+}
+
+/* fim painel1 */
+/*painel2*/
+.painel-conceito {
+    background-image: url("../../2_serie_iso/img/painel02.png");
+    background-size: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+
+}
+
+.bt-conceito1,
+.bt-conceito2,
+.bt-conceito3,
+.bt-conceito4,
+.bt-conceito5,
+.bt-conceito6,
+.bt-conceito7,
+.bt-conceito8,
+.bt-conceito9,
+.bt-conceito10,
+.bt-conceito11,
+.bt-conceito12,
+.bt-conceito13,
+.bt-conceito14,
+.bt-conceito15,
+.bt-conceito16,
+.bt-conceito17,
+.bt-conceito18,
+.bt-conceito19 {
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    position: relative;
+}
+
+.bt-conceito1:hover,
+.bt-conceito2:hover,
+.bt-conceito3:hover,
+.bt-conceito4:hover,
+.bt-conceito5:hover,
+.bt-conceito6:hover,
+.bt-conceito7:hover,
+.bt-conceito8:hover,
+.bt-conceito9:hover,
+.bt-conceito10:hover,
+.bt-conceito11:hover,
+.bt-conceito12:hover,
+.bt-conceito13:hover,
+.bt-conceito14:hover,
+.bt-conceito15:hover,
+.bt-conceito16:hover,
+.bt-conceito17:hover,
+.bt-conceito18:hover,
+.bt-conceito19:hover {
+    transform: scale(1.1);
+}
+
+.bt-conceito1 {
+    top: 381px;
+    right: -242px;
+}
+
+.bt-conceito2 {
+    top: 146px;
+    right: -56px;
+}
+
+.bt-conceito3 {
+    right: 116px;
+    top: 29px;
+}
+
+.bt-conceito4 {
+    top: -146px;
+    right: 210px;
+}
+
+.bt-conceito5 {
+    right: 184px;
+    top: -161px;
+}
+
+.bt-conceito6 {
+    right: 66px;
+    top: -79px;
+}
+
+.bt-conceito7 {
+    right: 76px;
+    top: -110px;
+}
+
+.bt-conceito8 {
+    left: -120px;
+    top: -164px;
+}
+
+.bt-conceito9 {
+    left: -48px;
+    top: -118px;
+}
+
+.bt-conceito10 {
+    right: -717px;
+    top: -146px;
+}
+
+.bt-conceito11 {
+    right: -482px;
+    top: -140px;
+
+}
+
+.bt-conceito12 {
+    right: -290px;
+    top: -124px;
+}
+
+.bt-conceito13 {
+    top: -128px;
+    right: -63px;
+}
+
+.bt-conceito14 {
+    right: 14px;
+    top: -10px;
+}
+
+.bt-conceito15 {
+    right: 12px;
+    top: -4px;
+}
+
+.bt-conceito16 {
+    right: 6px;
+    top: -14px;
+}
+
+.bt-conceito17 {
+    right: -61px;
+    top: 41px;
+}
+
+.bt-conceito18 {
+    top: 96px;
+    right: 97px;
+}
+
+.bt-conceito19 {
+    right: -587px;
+    top: 117px;
+}
+
+/* fim painel2 */
+
+
+
+
+
+@media (max-width: 768px) {
+    .painel-conceito {
+        background-image: unset;
+        background-size: unset;
+        height: unset;
+        background-repeat: unset;
+        padding-top: unset;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-conceito1,
+    .bt-conceito2,
+    .bt-conceito3,
+    .bt-conceito4,
+    .bt-conceito5,
+    .bt-conceito6,
+    .bt-conceito7,
+    .bt-conceito8,
+    .bt-conceito9,
+    .bt-conceito10,
+    .bt-conceito11,
+    .bt-conceito12,
+    .bt-conceito13,
+    .bt-conceito14,
+    .bt-conceito15,
+    .bt-conceito16,
+    .bt-conceito17,
+    .bt-conceito18,
+    .bt-conceito19 {
+        color: #fff;
+        width: 160px;
+        height: 100px;
+        background-color: #84acd4;
+        margin: 20px;
+        border-radius: 20px;
+        border: 1px #84acd4 solid;
+    }
+
+
+
+
+
+
+
+
+
+    .bt-conceito1 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt-conceito2 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt-conceito3 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito4 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt-conceito5 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito6 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito7 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito8 {
+        left: unset;
+        top: unset;
+    }
+
+    .bt-conceito9 {
+        left: unset;
+        top: unset;
+    }
+
+    .bt-conceito10 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito11 {
+        right: unset;
+        top: unset;
+
+    }
+
+    .bt-conceito12 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito13 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt-conceito14 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito15 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito16 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito17 {
+        right: unset;
+        top: unset;
+    }
+
+    .bt-conceito18 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt-conceito19 {
+        right: unset;
+        top: unset;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

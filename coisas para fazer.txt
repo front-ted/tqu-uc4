@@ -1,2 +1,33 @@
 pg 1
-versão impressa está ótima, só arrumar as tabelas
+Texto principal: OK.
+Impressão: OK, só arrumar as tabelas que estão desconfiguradas.
+Layout: refinar paineis e linha do tempo.
+Acessibilidade: 
+pg 2
+Texto principal: OK
+Impressão: OK
+Layout: refinar marcadores e painel clicavel
+Acessibilidade: 
+pg 3
+Texto principal:OK
+Impressão: OK
+Layout: 
+Acessibilidade: 
+pg 4
+Texto principal: OK
+Impressão: OK
+Layout: 
+Acessibilidade: 
+pg 5
+Texto principal: OK
+Impressão: OK
+Layout: 
+Acessibilidade: 
+
+
+
+
+
+
+
+pedir para o Bruno o PDF do conteudo 2

@@ -305,8 +305,8 @@ li {
     float: left;
     padding: 20px;
     border-radius: 5px;
-    margin-right: 19px;
-    margin-left: 205px;
+    margin-right: 120px;
+    margin-left: 107px;
 }
 
 .linhatempo-item:nth-child(even) .linhatempo-conteudo {
@@ -396,12 +396,13 @@ li {
 .descricao.active {
     display: block;
     right: auto;
-    left: calc(100% + 10px);
+    left: calc(100% + 108px);
+    right: calc(100% + -109px);
 }
 
 .linhatempo-item:nth-child(even) .descricao.active {
     left: auto;
-    right: calc(100% + -8px);
+    right: calc(100% + -109px);
 }
 
 .descrimob {

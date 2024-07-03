@@ -453,13 +453,78 @@ li {
 }
 
 /* fim linha do tempo */
+figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    margin-bottom: -11px !important;
+}
+
+.tab-content {
+    margin-bottom: 20px;
+}
+
+.custom-bullet {
+    list-style-image: url(../images/marcador.png);
+}
+.espera{
+    background-color: #92ACCE;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     .painel2 {
-        background-image: none;
-        background-size: none;
-        background-repeat: none;
-        padding-top: none;
+        background-image: unset;
+        background-size: unset;
+        background-repeat: unset;
+        padding-top: unset;
     }
 
     .linhatempo-item .linhatempo-conteudo {

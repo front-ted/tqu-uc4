@@ -5,6 +5,15 @@ figcaption {
     margin-bottom: 20px;
 }
 
+.btn-download {
+    border: none;
+    background: transparent;
+    background-color: transparent;
+    width: fit-content;
+    color: transparent;
+    margin: auto;
+}
+
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }

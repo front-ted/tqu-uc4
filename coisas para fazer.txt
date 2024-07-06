@@ -32,5 +32,3 @@ Acessibilidade:
 
 Página 4
 Botão Reunião falta o botão Preparar os materiais necessários: e o seu hover
-
-verificar tabelas

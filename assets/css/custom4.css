@@ -8,10 +8,12 @@ figcaption {
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }
+
 .tab-content {
     margin-bottom: 20px;
 }
-.espera{
+
+.espera {
     background-color: #92ACCE;
     color: #fff;
     display: flex;
@@ -23,4 +25,174 @@ figcaption {
     border-radius: 20px;
     margin: auto;
     margin-bottom: 30px;
+}
+
+.painel-reuniao1,
+.painel-reuniao2,
+.painel-reuniao3,
+.painel-reuniao4,
+.painel-reuniao5 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-reuniao {
+    width: 291px;
+    height: 122px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-reuniao1 {
+    background-image: url("../../4_elaboracao/img/painel01_bt01.png");
+}
+
+.bt-reuniao2 {
+    background-image: url("../../4_elaboracao/img/painel01_bt02.png");
+}
+
+.bt-reuniao3 {
+    background-image: url("../../4_elaboracao/img/painel01_bt03.png");
+}
+
+.bt-reuniao4 {
+    background-image: url("../../4_elaboracao/img/painel01_bt04.png");
+}
+
+.bt-reuniao5 {
+    background-image: url("../../4_elaboracao/img/painel01_bt05.png");
+}
+
+.bt-reuniao6 {
+    background-image: url("../../4_elaboracao/img/painel01_bt06.png");
+}
+
+.bt-reuniao7 {
+    background-image: url("../../4_elaboracao/img/painel01_bt07.png");
+}
+
+.bt-reuniao8 {
+    background-image: url("../../4_elaboracao/img/painel01_bt08.png");
+}
+
+.bt-reuniao9 {
+    background-image: url("../../4_elaboracao/img/painel01_bt09.png");
+}
+
+.bt-reuniao10 {
+    background-image: url("../../4_elaboracao/img/painel01_bt10.png");
+}
+
+.bt-reuniao1:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt01_hover.png");
+}
+
+.bt-reuniao2:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt02_hover.png");
+}
+
+.bt-reuniao3:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt03_hover.png");
+}
+
+.bt-reuniao4:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt04_hover.png");
+}
+
+.bt-reuniao5:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt05_hover.png");
+}
+
+.bt-reuniao6:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt06_hover.png");
+}
+
+.bt-reuniao7:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt07_hover.png");
+}
+
+.bt-reuniao8:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt08_hover.png");
+}
+
+.bt-reuniao9:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt09_hover.png");
+}
+
+.bt-reuniao10:hover {
+    background-image: url("../../4_elaboracao/img/painel01_bt10_hover.png");
+}
+
+
+
+
+
+
+.painel-comunicacao {
+    background-image: url("../../4_elaboracao/img/painel02_bg.png");
+    width: 734px;
+    height: 734px;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bt-comunicacao {
+    background-image: url("../../4_elaboracao/img/painel02_icone.png");
+    width: 91px;
+    height: 62px;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+    position: relative;
+    top: -120px;
+    font-weight: bold;
+    overflow: hidden;
+    line-height: 1.0;
+    text-overflow: ellipsis;
+}
+
+.bt-comunicacao:hover {
+    background-image: url("../../4_elaboracao/img/painel02_icone_hover.png");
+    width: 91px;
+    height: 62px;
+    color: #1A4480;
+    font-weight: bold;
+}
+
+@media (max-width: 425px) {
+
+    .painel-reuniao1,
+    .painel-reuniao2,
+    .painel-reuniao3,
+    .painel-reuniao4,
+    .painel-reuniao5 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .painel-comunicacao {
+        background-image: unset;
+        width: unset;
+        height: unset;
+        background-repeat: unset;
+    }
+
+    .bt-comunicacao {
+        border: unset;
+        position: unset;
+        top: unset;
+    }
 }

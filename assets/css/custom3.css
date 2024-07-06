@@ -8,10 +8,12 @@ figcaption {
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }
+
 .tab-content {
     margin-bottom: 20px;
 }
-.espera{
+
+.espera {
     background-color: #92ACCE;
     color: #fff;
     display: flex;
@@ -23,4 +25,52 @@ figcaption {
     border-radius: 20px;
     margin: auto;
     margin-bottom: 30px;
+}
+
+.painel-normas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.painel-iso {
+    background-image: url("../../3_iso/img/painel_bg.png");
+    width: 441px;
+    background-repeat: no-repeat;
+    height: 501px;
+    margin: auto;
+}
+
+.painel-iso button {
+    display: flex;
+    margin: auto;
+    position: relative;
+    right: -60px;
+    top: 90px;
+    margin-top: 5px;
+}
+
+.painel-iso a {
+    text-decoration: none;
+}
+
+@media (max-width: 425px) {
+    .painel-iso {
+        background-image: unset;
+        width: unset;
+        background-repeat: unset;
+        height: unset;
+        margin: unset;
+    }
+
+    .painel-iso button {
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
 }

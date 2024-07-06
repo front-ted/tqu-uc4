@@ -8,10 +8,12 @@ figcaption {
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }
+
 .tab-content {
     margin-bottom: 20px;
 }
-.espera{
+
+.espera {
     background-color: #92ACCE;
     color: #fff;
     display: flex;
@@ -24,6 +26,7 @@ figcaption {
     margin: auto;
     margin-bottom: 30px;
 }
+
 /*painel1*/
 
 .bt-iso1 {
@@ -237,10 +240,6 @@ figcaption {
 
 /* fim painel2 */
 
-
-
-
-
 @media (max-width: 768px) {
     .painel-conceito {
         background-image: unset;
@@ -282,14 +281,6 @@ figcaption {
         border-radius: 20px;
         border: 1px #84acd4 solid;
     }
-
-
-
-
-
-
-
-
 
     .bt-conceito1 {
         top: unset;
@@ -386,24 +377,4 @@ figcaption {
         right: unset;
         top: unset;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

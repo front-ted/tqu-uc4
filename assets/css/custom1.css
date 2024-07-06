@@ -469,7 +469,8 @@ figcaption {
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }
-.espera{
+
+.espera {
     background-color: #92ACCE;
     color: #fff;
     display: flex;
@@ -482,42 +483,6 @@ figcaption {
     margin: auto;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
     .painel2 {

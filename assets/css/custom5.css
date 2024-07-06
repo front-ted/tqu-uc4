@@ -5,13 +5,44 @@ figcaption {
     margin-bottom: 20px;
 }
 
+.bloco1 {
+    background-image: url('../../5_comunicacao/img/bg-bloco1.jpg');
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center !important;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+.bloco3 {
+    background-image: url('../../5_comunicacao/img/bg-bloco3.jpg');
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center !important;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+.bloco5 {
+    background-image: url('../../5_comunicacao/img/bg-bloco5.jpg');
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center !important;
+    height: auto;
+    overflow-x: hidden;
+}
+
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }
+
 .tab-content {
     margin-bottom: 20px;
 }
-.espera{
+
+.espera {
     background-color: #92ACCE;
     color: #fff;
     display: flex;
@@ -23,4 +54,68 @@ figcaption {
     border-radius: 20px;
     margin: auto;
     margin-bottom: 30px;
+    border: #fff 1px solid;
+}
+
+.painel-discurso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.bt-discurso1 {
+    background-image: url("../../5_comunicacao/img/bt01.png");
+    width: 240px;
+    height: 241px;
+    border: none;
+    margin: 20px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-discurso1:hover {
+    background-image: url("../../5_comunicacao/img/bt01_hover.png");
+}
+
+
+.bt-discurso2 {
+    background-image: url("../../5_comunicacao/img/bt02.png");
+    width: 240px;
+    height: 241px;
+    border: none;
+    margin: 20px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-discurso2:hover {
+    background-image: url("../../5_comunicacao/img/bt02_hover.png");
+}
+
+
+
+.bt-discurso3 {
+    background-image: url("../../5_comunicacao/img/bt03.png");
+    width: 240px;
+    height: 241px;
+    border: none;
+    margin: 20px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.bt-discurso3:hover {
+    background-image: url("../../5_comunicacao/img/bt03_hover.png");
+}
+
+@media (max-width: 768px) {
+    .painel-discurso {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
 }

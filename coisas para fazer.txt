@@ -11,24 +11,34 @@ Acessibilidade:
 pg 3
 Texto principal:OK
 Impressão: OK
-Layout: 
+Layout: OK
 Acessibilidade: 
 pg 4
 Texto principal: OK
 Impressão: OK
-Layout: 
+Layout: OK
 Acessibilidade: 
 pg 5
 Texto principal: OK
 Impressão: OK
-Layout: 
+Layout: OK
+Acessibilidade: 
+pg 6
+Texto principal: OK
+Impressão: OK
+Layout: OK
 Acessibilidade: 
 
 
 
 
-
-
-
+Página 1
+Página 2
+Página 3
+ver se consigo colocar o bg em gradiente, arrumar os botões(seções), na seção 4 arrumar a atividade, tirar link das imagens 2 e 3 impressão
 Página 4
-Botão Reunião falta o botão Preparar os materiais necessários: e o seu hover
+arrumar o destaque e colocar os dois personagens dando dicas e no botão palestras arrumar o podcast
+Página 5
+ver se posso manter o podcast padrão
+Página 6
+ver se consigo colocar o bg em gradiente

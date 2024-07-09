@@ -169,6 +169,14 @@ figcaption {
     font-weight: bold;
 }
 
+.bt-comunicacao.visited {
+    background-image: url("../../4_elaboracao/img/painel02_icone_hover.png");
+    width: 91px;
+    height: 62px;
+    color: #1A4480;
+    font-weight: bold;
+}
+
 @media (max-width: 425px) {
 
     .painel-reuniao1,

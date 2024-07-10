@@ -1,5 +1,15 @@
 @charset "utf-8";
 
+body {
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 50% 230%, #C489BB 20%, transparent 50%);
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: auto;
+    overflow-x: hidden;
+}
+
 figcaption {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -90,17 +100,27 @@ figcaption {
 }
 
 /* fim painel1 */
+
+
+
+
+
+
+
+
+
 /*painel2*/
 .painel-conceito {
-    background-image: url("../../2_serie_iso/img/painel02.png");
-    background-size: 100%;
-    height: 900px;
+    background-image: url(../../2_serie_iso/img/painel02.png);
+    background-size: 100% 100%;
+    height: 940px;
+    width: 1000px;
     background-repeat: no-repeat;
     padding-top: 130px;
-
+    margin: auto;
 }
 
-.bt-conceito1,
+/* .bt-conceito1,
 .bt-conceito2,
 .bt-conceito3,
 .bt-conceito4,
@@ -127,7 +147,63 @@ figcaption {
     transition: transform 0.3s ease;
     font-weight: bold;
     position: relative;
+} */
+
+
+.bt-conceito1,
+.bt-conceito2,
+.bt-conceito3,
+.bt-conceito4,
+.bt-conceito5,
+.bt-conceito6,
+.bt-conceito7,
+.bt-conceito8,
+.bt-conceito9,
+.bt-conceito10,
+.bt-conceito11,
+.bt-conceito12,
+.bt-conceito13,
+.bt-conceito14,
+.bt-conceito15,
+.bt-conceito16,
+.bt-conceito17,
+.bt-conceito18,
+.bt-conceito19 {
+    color: #fff;
+    width: 90px;
+    height: 80px;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #84acd4;
+    border-radius: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bt-conceito1:hover,
 .bt-conceito2:hover,

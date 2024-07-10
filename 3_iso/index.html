@@ -490,7 +490,19 @@
                     processos com o objetivo de alcançar os resultados organizacionais. Dessa forma, cada seção da norma
                     ISO 9001 corresponde a uma das etapas do PDCA. Acompanhe essa relação na figura PDCA e ISO 9001.
                 </p>
-                <figure class="my-5">
+                <figure class="my-5 no-print">
+                    <div class="figure-img mx-auto mb-4">
+                        <a href="img/fig02.jpg" target="_blank">
+                            <img class="img-fluid d-block mx-auto" src="img/fig02.jpg"
+                                alt="Sistema de Gestão da Qualidade (4); planejar (plan); Apoio (7) Operação (8); fazer (do) avaliação de desempenho (9); checar (check); melhoria (10); agir (act); planejamento (6); liderança (5). Do lado de fora do quadrado (entradas e saídas do SGQ): organização e seu contexto (4) requisito do cliente; necessidades e expectativas de partes interessadas pertinentes (4); satisfação do cliente; resultados do SGQ; produtos e serviços.">
+                        </a>
+                    </div>
+                    <figcaption class="figure-caption text-center">PDCA e ISO 9001
+                        <br>
+                        Fonte: ABNT (2015)
+                    </figcaption>
+                </figure>
+                <figure class="my-5 print visually-hidden">
                     <div class="figure-img mx-auto mb-4">
                         <a href="img/fig02.jpg" target="_blank">
                             <img class="img-fluid d-block mx-auto" src="img/fig02.jpg"
@@ -576,7 +588,20 @@
                 </div>
                 <p>Como a abordagem por processos é um dos itens centrais da norma, é importante contextualizar os
                     elementos de um processo. Observe na figura de elementos de um processo. </p>
-                <figure class="my-5">
+                <figure class="my-5 no-print">
+                    <div class="figure-img mx-auto mb-4">
+                        <a href="img/fig03.jpg" target="_blank">
+                            <img class="img-fluid d-block mx-auto" src="img/fig03.jpg"
+                                alt="Fontes de entradas: processos antecedentes, por exemplo, em provedores (internos ou externos), em clientes, em outras partes interessadas pertinentes. Entradas: matéria, energia, informação, por exemplo, na forma de material, recursos, requisitos. Atividades: ponto de partida; ponto de chegada. Saídas: matéria, energia, informação, por exemplo, na forma de produto, serviço, decisão. Recebedores de saídas: processos subsequentes, por exemplo, em clientes (internos ou externos), em outras partes interessadas pertinentes. Possíveis controles e pontos para monitorar e medir desempenho.">
+                        </a>
+                    </div>
+                    <figcaption class="figure-caption text-center">
+                        Elementos de um processo
+                        <br>
+                        Fonte: Adaptado de ABNT (2015)
+                    </figcaption>
+                </figure>
+                <figure class="my-5 print visually-hidden">
                     <div class="figure-img mx-auto mb-4">
                         <a href="img/fig03.jpg" target="_blank">
                             <img class="img-fluid d-block mx-auto" src="img/fig03.jpg"
@@ -777,38 +802,38 @@
                 <p class="no-print">Clique ou toque para visualizar o conteúdo. </p>
                 <div class="painel-iso">
                     <a href="secoes/secao4.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 4</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 4</b>
                         </button>
                     </a>
                     <a href="secoes/secao5.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 5</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 5</b>
                         </button>
                     </a>
                     <a href="secoes/secao6.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 6</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 6</b>
                         </button>
                     </a>
                     <a href="secoes/secao7.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 7</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 7</b>
                         </button>
                     </a>
                     <a href="secoes/secao8.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 8</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 8</b>
                         </button>
                     </a>
                     <a href="secoes/secao9.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 9</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 9</b>
                         </button>
                     </a>
                     <a href="secoes/secao10.html" class="no-print" target="_blank">
-                        <button type="button" class="botao check hvr-sweep-to-right no-print">
-                            <i>Seção 10</i>
+                        <button type="button" class="bt-secao no-print" onclick="markAsVisited(this)">
+                            <b>Seção 10</b>
                         </button>
                     </a>
                 </div>
@@ -2866,6 +2891,12 @@
     <!--Scripts gerais-->
     <script src="../assets/js/geral.js"></script>
     <script src="../assets/atividades/perguntas/perguntas.js"></script>
+
+    <script>
+        function markAsVisited(button) {
+            button.classList.add('visited');
+        }
+    </script>
 
     <script>
         var splide = new Splide('.splide', {

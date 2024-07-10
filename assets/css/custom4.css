@@ -1,5 +1,31 @@
 @charset "utf-8";
 
+body {
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 50% 230%, #C489BB 20%, transparent 50%);
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.elemento-esquerda {
+    position: absolute;
+    margin-left: -86%;
+    margin-top: 18%;
+    z-index: -2;
+    opacity: 0.7;
+}
+
+.elemento-direita {
+    position: absolute;
+    margin-left: 100%;
+    margin-top: -5%;
+    z-index: -2;
+    opacity: 0.7;
+}
+
 figcaption {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -175,6 +201,17 @@ figcaption {
     height: 62px;
     color: #1A4480;
     font-weight: bold;
+}
+
+@media (max-width: 1440px) {
+    .elemento-direita {
+        display: none;
+    }
+
+    .elemento-esquerda {
+        display: none;
+    }
+
 }
 
 @media (max-width: 425px) {

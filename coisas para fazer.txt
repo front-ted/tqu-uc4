@@ -1,7 +1,6 @@
 pg 1
 Acessibilidade: 
 pg 2
-Layout:
 Acessibilidade: 
 pg 3
 Acessibilidade: 
@@ -10,8 +9,4 @@ Acessibilidade:
 pg 5
 Acessibilidade: 
 pg 6
-Acessibilidade: 
-
-
-Página 2
-arrumar painel do espaço
+Acessibilidade:

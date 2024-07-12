@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.container {
+    max-width: 1020px;
+}
+
 body {
     background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 50% 230%, #C489BB 20%, transparent 50%);
     position: relative;
@@ -166,22 +170,22 @@ figcaption {
 
 .bt-conceito1 {
     top: 516px;
-    right: -248px;
+    right: -265px;
 }
 
 .bt-conceito2 {
     top: 286px;
-    right: -74px;
+    right: -85px;
 }
 
 .bt-conceito3 {
-    right: 85px;
+    right: 77px;
     top: 134px;
 }
 
 .bt-conceito4 {
     top: -63px;
-    right: 167px;
+    right: 163px;
 }
 
 .bt-conceito5 {
@@ -190,72 +194,72 @@ figcaption {
 }
 
 .bt-conceito6 {
-    right: 14px;
+    right: -14px;
     top: 18px;
 }
 
 .bt-conceito7 {
-    right: 12px;
+    right: -23px;
     top: -24px;
 }
 
 .bt-conceito8 {
-    left: -33px;
+    left: 16px;
     top: -93px;
 }
 
 .bt-conceito9 {
-    left: 54px;
+    left: 106px;
     top: -38px;
 }
 
 .bt-conceito10 {
-    right: 35px;
+    right: -20px;
     top: 70px;
 }
 
 .bt-conceito11 {
-    right: -581px;
-    top: 48px;
+    right: 219px;
+    top: 130px;
 }
 
 .bt-conceito12 {
-    right: -400px;
+    right: -519px;
     top: 68px;
 }
 
 .bt-conceito13 {
     top: 71px;
-    right: -207px;
+    right: -327px;
 }
 
 .bt-conceito14 {
-    right: -121px;
+    right: -233px;
     top: 205px;
 }
 
 .bt-conceito15 {
-    right: -130px;
+    right: -247px;
     top: 199px;
 }
 
 .bt-conceito16 {
-    right: -144px;
+    right: -271px;
     top: 190px;
 }
 
 .bt-conceito17 {
-    right: -227px;
+    right: -365px;
     top: 260px;
 }
 
 .bt-conceito18 {
-    top: 335px;
-    right: -80px;
+    top: 340px;
+    right: -217px;
 }
 
 .bt-conceito19 {
-    right: 82px;
+    right: -42px;
     top: 470px;
 }
 

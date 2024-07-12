@@ -18,8 +18,8 @@ body {
 .bloco1 {
     background-image: url('../../5_comunicacao/img/bg-bloco1.jpg');
     background-repeat: no-repeat !important;
-    background-size: 100% 100% !important;
-    background-position: center !important;
+    background-size: cover !important;
+    /* background-position: center !important; */
     height: auto;
     overflow-x: hidden;
 }

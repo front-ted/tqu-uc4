@@ -147,6 +147,7 @@ tbody td:first-child{border-left: 0;}
     padding-left: 40px;
 }
 .accordion-item, .accordion-item:first-of-type{
+    background-color: transparent;
     border: none;
     margin-bottom: 15px;
 }
@@ -517,7 +518,9 @@ tbody td:first-child{border-left: 0;}
     background: #fff;
     color: #000;
 }
-
+#nav-offcanvas{
+    background-color: var(--bg-gradiente-primario);
+}
 @media screen and (max-width: 1200px){
     h2{margin-left: 0;}
     .container-fluid .splide .splide__slide{

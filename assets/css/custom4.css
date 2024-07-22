@@ -202,6 +202,13 @@ figcaption {
     color: #1A4480;
     font-weight: bold;
 }
+.personashow{
+    display: none !important;
+
+}
+.personaHide{
+    
+}
 
 @media (max-width: 1440px) {
     .elemento-direita {
@@ -214,6 +221,18 @@ figcaption {
 
 }
 
+@media (max-width: 767px) {
+    
+    .personashow{
+        display: block !important;
+
+    }
+    .personaHide{
+        display: none !important;
+
+    }
+
+}
 @media (max-width: 425px) {
 
     .painel-reuniao1,

@@ -9,13 +9,11 @@ body {
     height: auto;
     overflow-x: hidden;
 }
-
 .bt-secao {
     color: #1A4480;
     background-color: transparent;
     height: 50px;
     width: 100px;
-    border: none;
     position: relative;
     transition: background-image 0.3s ease;
 }
@@ -113,6 +111,10 @@ figcaption {
 }
 
 @media (max-width: 425px) {
+            
+        .ativHideMob{
+           display: none; 
+        }
     .painel-iso {
         background-image: unset;
         width: unset;

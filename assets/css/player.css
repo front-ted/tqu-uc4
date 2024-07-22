@@ -54,6 +54,37 @@
     bottom: -2px;
     z-index: 2;
 }
+.audio-player2::before{
+    content:unset;
+ 
+}
+
+
+.box2-audio-player2{
+    background: #fff;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+    width: 90%;
+    margin: 50px auto;
+    min-height: 250px;
+    position: relative;
+    padding: 20px;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-color: var(--cor-primaria);
+}
+.audio-player2::after{
+    content:'';
+    background: url('../images/podcast_2.svg') no-repeat;
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    right: -20px;
+    bottom: -2px;
+    z-index: 2;
+}
 .audio-player .timestamp{
     display: inline-block;
     vertical-align: text-top;
@@ -175,6 +206,19 @@
 }
 
 @media screen and (max-width: 840px){
+    
+    .audio-player2::after{
+        height: 80px;
+        width: 80px;
+        left: unset !important;
+    right: 0 !important;
+    /* margin: 0 auto !important; */
+    bottom: -50px;
+    }
+    .box2-audio-player2 .destaque{
+        padding-top: 20px;
+        
+    }
     .bg-podcast > div::after{display: none;}
     .bg-podcast{
         padding-bottom: 200px;

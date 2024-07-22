@@ -3,14 +3,15 @@
     display: inline-block;
     height: auto;
     margin: 5px;
-    width: 210px;
+    width: 95%;
     border-radius: 10px;
     background-position: center;
     background-size: 152px;
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 16px;
-    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    /* text-transform: uppercase; */
     padding: 5px;
     cursor: pointer;
     border-width: 3px;
@@ -53,6 +54,7 @@
     text-align: center;
 }
 .game-body .slot {
+    min-height: 100px;
     height: auto;
     width: 100%;
     background-color: transparent;
@@ -70,6 +72,7 @@
     margin: auto;
     display: block;
     margin-top: -10px;
+    margin-bottom: 10px;
 }
 .game-body .slot .card{
     color: #fff;
@@ -90,7 +93,6 @@
     max-width: 230px;
     display: block;
     margin: auto;
-    text-transform: uppercase;
     z-index: 2;
     position: relative;
 }

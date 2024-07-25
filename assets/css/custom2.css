@@ -135,11 +135,12 @@ figcaption {
     color: #fff;
     width: 80px;
     height: 65px;
+    background-color: transparent;
+    font-size: 30px;
     border: none;
     transition: transform 0.3s ease;
     font-weight: bold;
     position: relative;
-    background-color: #84acd4;
     text-overflow: ellipsis;
     overflow: hidden;
     line-height: 1.0;
@@ -165,7 +166,8 @@ figcaption {
 .bt-conceito17:hover,
 .bt-conceito18:hover,
 .bt-conceito19:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
+    text-shadow: 2px 2px #6c757d;
 }
 
 .bt-conceito1 {
@@ -174,23 +176,23 @@ figcaption {
 }
 
 .bt-conceito2 {
-    top: 286px;
+    top: 306px;
     right: -85px;
 }
 
 .bt-conceito3 {
     right: 77px;
-    top: 134px;
+    top: 144px;
 }
 
 .bt-conceito4 {
-    top: -63px;
+    top:-50px;
     right: 163px;
 }
 
 .bt-conceito5 {
-    right: 116px;
-    top: -86px;
+    right: 96px;
+    top: -76px;
 }
 
 .bt-conceito6 {
@@ -205,7 +207,7 @@ figcaption {
 
 .bt-conceito8 {
     left: 16px;
-    top: -93px;
+    top: -73px;
 }
 
 .bt-conceito9 {
@@ -220,47 +222,47 @@ figcaption {
 
 .bt-conceito11 {
     right: 219px;
-    top: 130px;
+    top: 150px;
 }
 
 .bt-conceito12 {
     right: -519px;
-    top: 68px;
+    top: 88px;
 }
 
 .bt-conceito13 {
-    top: 71px;
+    top: 91px;
     right: -327px;
 }
 
 .bt-conceito14 {
     right: -233px;
-    top: 205px;
+    top: 225px;
 }
 
 .bt-conceito15 {
     right: -247px;
-    top: 199px;
+    top: 229px;
 }
 
 .bt-conceito16 {
     right: -271px;
-    top: 190px;
+    top: 230px;
 }
 
 .bt-conceito17 {
     right: -365px;
-    top: 260px;
+    top: 290px;
 }
 
 .bt-conceito18 {
-    top: 340px;
+    top: 360px;
     right: -217px;
 }
 
 .bt-conceito19 {
     right: -42px;
-    top: 470px;
+    top: 500px;
 }
 
 /* fim painel2 */

@@ -43,7 +43,10 @@ body {
     height: auto;
     overflow-x: hidden;
 }
-
+.bloco1 p, .bloco1 h1, .bloco1 h2, .bloco1 h3, .bloco1 h4,
+.bloco5 p, .bloco5 h1, .bloco5 h2, .bloco5 h3, .bloco5 h4{
+    color: #fff !important;
+}
 .custom-bullet {
     list-style-image: url(../images/marcador.png);
 }

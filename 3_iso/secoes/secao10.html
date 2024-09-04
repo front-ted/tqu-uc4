@@ -259,9 +259,18 @@
                     organizacional e permanecer competitiva no mercado por meio das melhorias realizadas.
                 </p>
                 <p class="no-print" aria-hidden="true">Vamos praticar?</p>
-                <div class="espera no-print" aria-hidden="true">
-                    <h2 class="mx-auto">Espera</h2>
-                </div>
+                <a href="../odas/pdca/index.html" target="_blank">
+                    <img src="../odas/pdca/thumb.png" class="img-fluid d-block " alt=""
+                        style="max-width: 550px; margin: auto">
+                    <span class="text-center only-print" id="link-pdca"></span>
+                    <img src="../img/selo-03.png" class="m-auto d-block"
+                        style="max-width: 200px; margin-bottom: 40px !important" alt="">
+                </a>
+
+                <style>
+
+                </style>
+
                 <a href="#" class="voltar-topo no-print" aria-hidden="true"><img
                         src="../../assets/images/bt_topo.svg"></a>
             </div>
@@ -277,6 +286,13 @@
     <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
     <!--Jquery-->
     <script src="../../assets/js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            var link_url = location.href;
+            $("#link-pdca").text(link_url);
+            console.log(link_url)
+        })
+    </script>
     <!--Áudio customizado-->
     <script src="../../assets/js/audio-player.js"></script>
     <!--Splide - slideshow-->

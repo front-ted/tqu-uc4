@@ -58,7 +58,17 @@
     content:unset;
  
 }
-
+.podcast-fem::before{display: none;}
+.podcast-fem::after{
+    content:'';
+    background: url('../images/podcast_esq.png') no-repeat;
+    height: 276px;
+    width: 302px;
+    position: absolute;
+    left: -20px;
+    bottom: -2px;
+    z-index: 2;
+}
 
 .box2-audio-player2{
     background: #fff;
@@ -242,6 +252,10 @@
         left: 5%;
         height: 180px;
         background-position: left;
+    }
+    .podcast-fem::after{
+        left: 0;
+        background-size: contain;        
     }
 }
 @media screen and (max-width: 430px){

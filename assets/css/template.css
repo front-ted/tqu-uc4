@@ -521,6 +521,11 @@ tbody td:first-child{border-left: 0;}
 #nav-offcanvas{
     background-color: var(--bg-gradiente-primario);
 }
+
+.video{
+    margin: 50px auto;
+    display: block;
+}
 @media screen and (max-width: 1200px){
     h2{margin-left: 0;}
     .container-fluid .splide .splide__slide{
@@ -546,6 +551,7 @@ tbody td:first-child{border-left: 0;}
         left: 0;
         right: 0;
     }
+    .video{width: 100% !important;}
 }
 @media screen and (max-width: 580px){
     .topo-logo{

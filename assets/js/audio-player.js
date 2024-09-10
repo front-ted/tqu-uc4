@@ -28,7 +28,7 @@
     O objeto audio player funciona de forma geral para todos os players declarados na pagina, nao havendo necessidade
     de configurar cada um de forma independente, basta declarar a estrutra no html, linkar o source certo no audio e linkar 
     o audio-player.js ao final do documento, antes de fechar o body.
-    A estrutura utilizada deve preferencialmente ser a demonstrada acimam sendo obrigatorias as classes no container principal(.sesc-audio-player) e nos botões(btn-play e btn-pause), uma tag de audio com source e um input range (as classes do bootstrap podem ser removidas caso nao seja usado)
+    A estrutura utilizada deve preferencialmente ser a demonstrada acimam sendo obrigatorias as classes no container principal(.audio-player) e nos botões(btn-play e btn-pause), uma tag de audio com source e um input range (as classes do bootstrap podem ser removidas caso nao seja usado)
     
     Escrito em js puro, então não precisa de jquery.
 
@@ -36,7 +36,7 @@
 
 AudioPlayer = {
     init: function(){
-        //aqui eu verifico se existem estruturas de player com a classe .sesc-audio-player, e então trato as funcionalidades da cada player          
+        //aqui eu verifico se existem estruturas de player com a classe .audio-player, e então trato as funcionalidades da cada player          
         Array.from(document.querySelectorAll('.audio-player')).forEach(function(el){
             let btPlay = el.querySelector('.btn-play');
             let btPause = el.querySelector('.btn-pause');
